@@ -3,18 +3,17 @@ const express = require("express");
 const router = express.Router();
 
 
-const { browse, read } = require("../../../controllers/programActions");
+const { browse, read } = require("../../../controllers/categoriesActions");
 
 router.get("/", browse);
 
-router.get("/:id", read);
-
+router.get("/:id", read)
 
 /* ************************************************************************* */
-// Import And Use Routers Here
+// Define Your API Routes Here
 /* ************************************************************************* */
 
-
+/* Here you code */
 
 /* ************************************************************************* */
 
